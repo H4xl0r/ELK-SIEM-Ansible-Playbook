@@ -39,3 +39,12 @@ Install ELK SIEM using Ansible
     ansible-playbook site.yml -K (enter the password for the SSH USER OF ELK SIEM VM (1.2))
   4) Sign into kibana at http://yoursiemip:5601
 
+################
+
+Run on ELK SIEM VM (1.2)
+sudo /bin/systemctl daemon-reload
+sudo /bin/systemctl enable kibana.service
+sudo /bin/systemctl enable logstash.service
+sudo /bin/systemctl enable elasticsearch.service
+sudo /bin/systemctl enable filebeat.service
+
