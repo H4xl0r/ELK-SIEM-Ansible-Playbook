@@ -16,7 +16,6 @@ Install ansible on Ubuntu VM (1.1)
   * sudo add-apt-repository --yes --update ppa:ansible/ansible
   * sudo apt update
   * sudo sudo apt install ansible
-  * 
   * edit /etc/ansible/hosts and add:
     ```
     [local]
